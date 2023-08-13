@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #4c00FF;
+    font-size: 20px;
+}
+.navbar-brand img {
+    height: 50px; 
+    width: auto; 
+}
+
+.carousel-inner {
+    height: 90vh;
+}
+
+.carousel-text {
+    font-size: xx-large;
+}
+
+.carousel-caption {
+    background-color: rgba(76, 0, 255, 0.5);
+    bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #4c00FF;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #4c00FF;
+}
+
+.card-deck {
+    margin: 30px 30px 30px 30px;
+}
+
+.content {
+    padding: 30px 30px 30px 30px;
+}
+
+.float-right {
+    margin: 15px 0 15px 15px;
+}
+
+.container-image {
+  max-width: 100%;
+  height: auto;
+  width: calc(100% / 2);
+}
+
+footer {
+    background-color: #4c00FF;
+    color: white;
+    padding: 3%;
+}
+
+footer img {
+    height: 100px; 
+    width: auto; 
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin-right: 20px;
+    font-size: 1.4em;
+}
+  
