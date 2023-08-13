@@ -1,0 +1,106 @@
+body {
+    background-image: url(images/fruit.jpg);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    background-color: rgb(125, 138, 46);
+    color: #FFFFFF;
+    font-weight: lighter;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+}
+
+input {
+    font-size: 20px;
+    background-color: #f9f4f4;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(125, 138, 46);
+}
+
+input:focus {
+  background: white;
+  border: 2px solid #7D8A2E;
+}
+
+li {
+    margin-top: 0px;
+    list-style-type: none; 
+    padding: 15px;
+    color: gray;
+    font-size: 20px;
+    border-bottom: white solid;
+    width: 102%;
+    position: relative;
+    right: 40px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.card {
+    background: #f9f4f4;
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+
+#plus {
+    --t: 4px;   /* Thickness */
+    --l: 30px;  /* size of the symbol */
+    --s: 5px;  /* space around the symbol */
+    --c1: rgb(125, 138, 46); /* Plus color*/
+    --c2: rgb(255, 255, 255)00; /* background color*/
+  
+    display: inline-block;
+    width: var(--l);
+    height: var(--l);
+    padding: var(--s);
+    box-sizing: border-box; /*Remove this if you don't want space to be included in the size*/
+    
+    background:
+      linear-gradient(var(--c1),var(--c1)) content-box,
+      linear-gradient(var(--c1),var(--c1)) content-box,
+      var(--c2);
+    background-position: center;
+    background-size: 100% var(--t),var(--t) 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    position: relative;
+    left: 260px;
+    bottom: -7px;
+  }
+
+.material-icons {
+    display: none;
+    position: absolute;
+    left: 450px;
+    font-size: 36px;
+    opacity: 0;
+    color: red;
+    transition: 0.3s;
+  }
+
+.material-icons:hover {
+  opacity: 1;
+  width: 50px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #b5b5b5;
+}
